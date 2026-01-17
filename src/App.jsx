@@ -1,8 +1,13 @@
-import React from 'react'
+
+import Hero from './components/Hero'
+import NavBar from './components/NavBar'
 
 const App = () => {
   return (
-    <div className='text-3xl underline text-indigo-400 hover:text-amber-200'>App</div>
+    <main>
+      <NavBar/>
+      <Hero/>
+    </main>
   )
 }
 
