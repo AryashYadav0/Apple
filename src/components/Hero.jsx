@@ -17,7 +17,10 @@ const Hero = () => {
             <img src="/title.png" alt="MacBook Title" />
         </div>
 
-        <video src="/videos/hero.mp4" autoPlay muted playsInline />
+        <video ref={videoRef} src="/videos/hero.mp4" autoPlay muted playsInline />
+
+        <button>Buy</button>
+        <p>From $1599 or $133/mo for 12 months</p>
     </section>
   )
 }
