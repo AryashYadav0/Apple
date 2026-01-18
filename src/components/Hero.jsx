@@ -5,7 +5,7 @@ const Hero = () => {
     const videoRef = useRef();
 
     useEffect(() =>{
-        if(videoRef.current) videoRef.current.playbackRate =2;
+        if(videoRef.current) videoRef.current.playbackRate = 2;
 
     },[]);
 
